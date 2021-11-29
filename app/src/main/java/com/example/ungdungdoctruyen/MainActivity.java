@@ -33,7 +33,7 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
+//hahahaha
     Toolbar toolbar;
     ViewFlipper viewFlipper;
     NavigationView navigationView;
