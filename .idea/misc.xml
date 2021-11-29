@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_dang_bai.xml" value="0.20416666666666666" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_dang_ki.xml" value="0.20416666666666666" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_dang_nhap.xml" value="0.2" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_noi_dung.xml" value="0.20416666666666666" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_thong_tin.xml" value="0.20416666666666666" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_tim_kiem.xml" value="0.20416666666666666" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/chuyenmuc.xml" value="0.20416666666666666" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/dialogdelete.xml" value="0.20416666666666666" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/navigation_thongtin.xml" value="0.20416666666666666" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/newtruyen.xml" value="0.2" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/menu/mymenu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
