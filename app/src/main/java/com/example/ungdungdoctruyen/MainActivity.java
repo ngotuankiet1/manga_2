@@ -104,6 +104,9 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this,ManThongTin.class);
                     startActivity(intent);
                 }else if(position == 2){
+                    Intent intent = new Intent(MainActivity.this,ManTatCaTruyen.class);
+                    startActivity(intent);
+                }else if(position == 3){
                     finish();
                 }
             }
@@ -195,6 +198,7 @@ public class MainActivity extends AppCompatActivity {
         chuyenmucArrayList = new ArrayList<>();
         chuyenmucArrayList.add(new chuyenmuc("Đăng bài",R.drawable.ic_baseline_post_add_24));
         chuyenmucArrayList.add(new chuyenmuc("Thông tin",R.drawable.ic_baseline_face_24));
+        chuyenmucArrayList.add(new chuyenmuc("Tất cả truyện",R.drawable.ic_baseline_post_add_24));
         chuyenmucArrayList.add(new chuyenmuc("Đăng xuất",R.drawable.ic_baseline_login_24));
 
         adapterchuyenmuc = new adapterchuyenmuc(this,R.layout.chuyenmuc,chuyenmucArrayList);
