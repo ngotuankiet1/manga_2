@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         databasetruyen = new database(this);
 
         Intent intentpq = getIntent();
-        int i = intentpq.getIntExtra("phang",0);
+        int i = intentpq.getIntExtra("phanq",0);
         int idd = intentpq.getIntExtra("idd",0);
         email = intentpq.getStringExtra("email");
         tentaikhoan = intentpq.getStringExtra("tentaikhoan");
@@ -89,9 +89,8 @@ public class MainActivity extends AppCompatActivity {
        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
                 if(position == 0){
-                    if(i == 0){
+                    if(i == 2){
                         Intent intent = new Intent(MainActivity.this,ManAdmin.class);
                         intent.putExtra("Id",idd);
                         startActivity(intent);

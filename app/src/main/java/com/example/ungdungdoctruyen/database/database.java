@@ -45,6 +45,7 @@ public class database extends SQLiteOpenHelper {
 
     private String SQLQuery2 = "INSERT INTO TaiKhoan VAlUES (null,'admin','admin','admin@gmail.com',2)";
     private String SQLQuery3 = "INSERT INTO TaiKhoan VAlUES (null,'khanh','khanh','khanh@gmail.com',1)";
+//    private String SQLQuery2 = "INSERT INTO TaiKhoan VAlUES (null,'admin1','admin1','ad@gmail.com',3)";
 
     private String SQLQuery4 = "INSERT INTO truyen VALUES (null,'Rùa và Thỏ','Phần 1:\n" +
             "\n" +

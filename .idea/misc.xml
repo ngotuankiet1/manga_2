@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_main_danh_gia.xml" value="0.19202898550724637" />
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_admin.xml" value="0.20416666666666666" />
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_dang_bai.xml" value="0.20416666666666666" />
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_dang_ki.xml" value="0.20416666666666666" />
@@ -12,6 +13,8 @@
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_thong_tin.xml" value="0.20416666666666666" />
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_man_tim_kiem.xml" value="0.20416666666666666" />
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/chuyenmuc.xml" value="0.20416666666666666" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/content.xml" value="0.22" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/contenttop.xml" value="0.20416666666666666" />
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/dialogdelete.xml" value="0.20416666666666666" />
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/navigation_thongtin.xml" value="0.20416666666666666" />
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/newtruyen.xml" value="0.2" />
