@@ -39,6 +39,19 @@ public class ManAdmin extends AppCompatActivity {
 
         initList();
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(ManAdmin.this,ManNoiDung.class);
+
+                String tent = TruyenArrayList.get(position).getTenTruyen();
+                String noidungt = TruyenArrayList.get(position).getNoiDung();
+                intent.putExtra("tentruyen",tent);
+                intent.putExtra("noidung",noidungt);
+                startActivity(intent);
+            }
+        });
+
         buttonThem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

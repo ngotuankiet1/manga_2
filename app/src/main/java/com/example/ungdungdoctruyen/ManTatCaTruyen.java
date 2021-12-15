@@ -2,8 +2,11 @@ package com.example.ungdungdoctruyen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
@@ -30,6 +33,20 @@ public class ManTatCaTruyen extends AppCompatActivity {
 
         listView = findViewById(R.id.listvsiewtatcatruyen);
         initList();
+
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(ManTatCaTruyen.this,ManNoiDung.class);
+
+                String tent = TruyenArrayList.get(position).getTenTruyen();
+                String noidungt = TruyenArrayList.get(position).getNoiDung();
+                intent.putExtra("tentruyen",tent);
+                intent.putExtra("noidung",noidungt);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initList() {
