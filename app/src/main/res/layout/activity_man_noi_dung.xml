@@ -19,23 +19,12 @@
     <TextView
         android:id="@+id/noidung"
         android:layout_width="match_parent"
-        android:layout_height="520dp"
+        android:layout_height="match_parent"
         android:layout_margin="10dp"
         android:padding="2dp"
         android:scrollbars="vertical"
         android:textSize="25sp"></TextView>
 
-    <Button
-        android:id="@+id/buttonYeuthich"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Yêu thích"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonChiase"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/buttonChiase"
-        app:layout_constraintTop_toTopOf="@+id/buttonChiase" />
 
 
 </LinearLayout>

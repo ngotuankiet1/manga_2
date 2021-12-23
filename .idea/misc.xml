@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/ungdungdoctruyen/app/src/main/res/layout/activity_main.xml" value="0.19907407407407407" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/drawable/ic_baseline_post_add_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/drawable/ic_image.xml" value="0.2203125" />
+        <entry key="..\:/ungdungdoctruyen/app/src/main/res/drawable/ic_load.xml" value="0.2203125" />
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_main_danh_gia.xml" value="0.19202898550724637" />
         <entry key="..\:/ungdungdoctruyen/app/src/main/res/layout/activity_main_noi_dung_truyen.xml" value="0.20416666666666666" />

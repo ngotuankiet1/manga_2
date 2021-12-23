@@ -16,7 +16,7 @@ public class ManThongTin extends AppCompatActivity {
 
         txtThongtinapp = findViewById(R.id.textviewthongtin);
 
-        String thongtin = "Ứng dụng được phát hành bởi 'Kiet'\n"+"Uy tín đạt 100%\n"+"Ok";
+        String thongtin = "Ứng dụng đọc sách/truyện nhóm DK\n"+"Thành viên gồm: Ngô Tuấn Kiệt và Lê Huỳnh Hoàng Khang";
 
         txtThongtinapp.setText(thongtin);
     }

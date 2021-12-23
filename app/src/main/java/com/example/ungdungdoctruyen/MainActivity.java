@@ -115,12 +115,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void ActionBar() {
-
+        //hàm hỗ trợ toolbar
         setSupportActionBar(toolbar);
 
+        //set nút cho actionbar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        //tạo icon
         toolbar.setNavigationIcon(android.R.drawable.ic_menu_sort_by_size);
+
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
@@ -139,24 +142,29 @@ public class MainActivity extends AppCompatActivity {
         mangquangcao.add("https://toplist.vn/images/800px/cu-cai-trang-230181.jpg");
         mangquangcao.add("https://toplist.vn/images/800px/de-den-va-de-trang-230182.jpg");
 
-
+        //load ảnh
         for (int i =0;i<mangquangcao.size(); i++){
             ImageView imageView = new ImageView(getApplicationContext());
 
             Picasso.get().load(mangquangcao.get(i)).into(imageView);
 
+            //phương thức chỉnh tấm hình vừa khung quảng cáo
             imageView.setScaleType(ImageView.ScaleType.FIT_XY);
 
             viewFlipper.addView(imageView);
         }
 
+        // thiết lập tự động chạy trong 4s
         viewFlipper.setFlipInterval(4000);
 
+        //run auto animation
         viewFlipper.setAutoStart(true);
 
+        //gọi animation cho vào và ra
         Animation animation_slide_in = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slide_in_right);
         Animation animation_slide_out = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slide_out_right);
 
+        //gọi animation vào viewFlipper
         viewFlipper.setInAnimation(animation_slide_in);
         viewFlipper.setInAnimation(animation_slide_out);
     }
@@ -192,9 +200,11 @@ public class MainActivity extends AppCompatActivity {
         taiKhoanArrayList = new ArrayList<>();
         taiKhoanArrayList.add(new TaiKhoan(tentaikhoan,email));
 
+        //thông tin
         adapterthongtin = new adapterthongtin(this,R.layout.navigation_thongtin,taiKhoanArrayList);
         listViewThongTin.setAdapter(adapterthongtin);
 
+        //chuyên mục
         chuyenmucArrayList = new ArrayList<>();
         chuyenmucArrayList.add(new chuyenmuc("Đăng bài",R.drawable.ic_baseline_post_add_24));
         chuyenmucArrayList.add(new chuyenmuc("Thông tin",R.drawable.ic_baseline_face_24));

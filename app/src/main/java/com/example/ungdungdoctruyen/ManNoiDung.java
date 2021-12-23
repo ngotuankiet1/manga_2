@@ -22,15 +22,7 @@ public class ManNoiDung extends AppCompatActivity {
 
         txtNoiDung = findViewById(R.id.noidung);
         txtTenTruyen = findViewById(R.id.TenTruyen);
-        btnYeuThich = findViewById(R.id.buttonYeuthich);
 
-        btnYeuThich.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(ManNoiDung.this,"Đã thêm vào danh sách yêu thích",Toast.LENGTH_SHORT).show();
-                Log.e("Yêu thích: ","Đã thêm vào danh sách yêu thích");
-            }
-        });
 
         Intent intent = getIntent();
         String tentruyen = intent.getStringExtra("tentruyen");

@@ -43,6 +43,7 @@ public class ManAdmin extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                //lấy id để biết admin nào đăng bài
                 Intent intent1 = getIntent();
                 int id = intent1.getIntExtra("Id",0);
 
